@@ -106,12 +106,11 @@ footer {
     height: 220px;
   }
 }
-
 .profile-pic {
   display: block;
   margin: 20px auto;
-  width: 180px;      /* tamanho */
-  height: auto;      /* mantém proporção */
-  border-radius: 50%; /* deixa redonda */
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  width: 220px;     /* aumenta ou diminui o tamanho */
+  height: auto;     /* mantém a proporção */
+  border-radius: 50%; /* redonda a imagem */
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
 }
