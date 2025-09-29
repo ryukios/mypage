@@ -1,73 +1,33 @@
 body {
-  font-family: 'Consolas', 'Courier New', monospace;
+  font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* fundo roxo-azulado */
-  color: #e0e0e0; /* texto claro */
+  background: #f5f5f5;   /* light neutral background */
+  color: #333333;        /* dark text */
   text-align: center;
-}
-
-header {
-  padding: 50px 20px;
-}
-header h1 {
-  font-size: 2.8em;
-  margin: 0;
-  color: #ff00ff; /* rosa neon */
-  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
-}
-header p {
-  font-size: 1.2em;
-  margin: 10px 0 30px;
-  color: #00ffff; /* ciano neon */
-  text-shadow: 0 0 8px #00ffff;
 }
 
 a.button {
   display: inline-block;
-  padding: 14px 28px;
-  background: #00ffff;
-  color: #111;
+  padding: 12px 25px;
+  background: #800020;   /* burgundy */
+  color: #fff;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  border-radius: 5px;
   transition: 0.3s;
 }
 a.button:hover {
-  background: #ff00ff;
-  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
-  color: #fff;
-}
-
-section h2 {
-  color: #ff00ff;
-  text-shadow: 0 0 8px #ff00ff;
+  background: #660018;   /* darker burgundy */
 }
 
 footer {
   margin-top: 50px;
   padding: 20px;
-  background: #111;
+  background: #222;      /* almost black */
   font-size: 0.9em;
-  color: #00ffff;
-  text-shadow: 0 0 6px #00ffff;
+  color: #ccc;           /* soft gray text */
 }
 
-/* Responsividade */
-@media (max-width: 600px) {
-  header {
-    padding: 30px 12px;
-  }
-  header h1 {
-    font-size: 2em;
-  }
-  header p {
-    font-size: 1em;
-  }
-}
 #music h2 {
   color: #00ffff;
   text-shadow: 0 0 8px #00ffff;
