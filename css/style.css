@@ -89,26 +89,21 @@ footer {
   text-align: center;
 }
 
-/* Spotify iframe adjustments */
-iframe {
+/* Default (desktop) */
+.spotify-embed {
+  border-radius: 8px;
   display: block;
-  margin: 15px auto;
+  margin: 20px auto;
+  width: 220px;
+  height: 280px;
   box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
-/* Responsive adjustments */
+/* Mobile responsive */
 @media (max-width: 600px) {
-  header {
-    padding: 30px 12px;
-  }
-  h1 {
-    font-size: 1.8em;
-  }
-  h2 {
-    font-size: 1.3em;
-  }
-  iframe {
-    width: 90%;
+  .spotify-embed {
+    width: 90%;   /* expand almost full width */
     height: 220px;
   }
 }
+
