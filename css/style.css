@@ -107,3 +107,11 @@ footer {
   }
 }
 
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 180px;      /* tamanho */
+  height: auto;      /* mantém proporção */
+  border-radius: 50%; /* deixa redonda */
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
