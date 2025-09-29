@@ -111,6 +111,5 @@ footer {
   margin: 20px auto;
   width: 220px;     /* aumenta ou diminui o tamanho */
   height: auto;     /* mantém a proporção */
-  border-radius: 10%; /* redonda a imagem */
   box-shadow: 0 0 12px rgba(0,0,0,0.5);
 }
