@@ -68,3 +68,12 @@ footer {
     font-size: 1em;
   }
 }
+#music h2 {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+#music p {
+  color: #e0e0e0;
+  font-size: 1.1em;
+}
